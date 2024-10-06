@@ -27,5 +27,5 @@ cmake .. && make
 ```shell
 cd rust
 cargo build --release
-./target/release/demo 
+./target/release/demo --onnx-model-path --image-path
 ```
