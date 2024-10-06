@@ -23,3 +23,9 @@ cmake .. && make
 ```
 
 ### rust
+
+```shell
+cd rust
+cargo build --release
+./target/release/demo 
+```
