@@ -15,4 +15,11 @@ python main.py --onnx-model-path --image-path
 
 ### cpp
 
+```shell
+cd cpp
+mkdir build && cd build
+cmake .. && make
+./demo --onnx-model-path --image-path
+```
+
 ### rust
